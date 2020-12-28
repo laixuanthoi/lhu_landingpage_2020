@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:
+
+Sitemap: https://tuyensinh.lhu.edu.vn/sitemap.xml

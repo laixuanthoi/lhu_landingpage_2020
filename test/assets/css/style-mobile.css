@@ -1,0 +1,62 @@
+/* medium */
+@media only screen and (max-width: 992px) {
+  .gallery{
+    column-count: 2;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /* hoc bong */
+
+  /* hoc bong */
+   /* footer */
+    footer {
+      background-position: bottom center;
+      background-repeat: no-repeat;
+      background-size: unset;
+    }
+    footer h1{
+      font-size: 1.7em;
+    }
+    /* footer */
+    section{
+        padding: 4rem 0 2rem 0;
+    }
+    .section-title h2{
+        font-size: 2em;
+    }
+    #main-nav .navbar-nav .nav-link {
+      text-align: left;
+    }
+    #main-nav .navbar-nav .nav-link.active::after{
+      height: 2px;
+      bottom: -2px;
+      width: 25%;
+    }
+    /* header */
+    #home {
+      padding-top: 49px;
+    }
+    #home .bg-transparent {
+      background-color: #13b6f0 !important;
+    }
+    /* header */
+
+    /* co hoi */
+    #co-hoi{
+        background-size: 85%;
+        background-position: center 5%;
+      }
+      .gallery{
+        column-count: 1;
+      }
+    /* co hoi */
+
+    /* about us */
+    .about-us-thumb img{
+        max-width: 50%;
+        margin: 0 auto;
+        padding-bottom: 2px;
+      }
+    /* about us */
+  }
+
