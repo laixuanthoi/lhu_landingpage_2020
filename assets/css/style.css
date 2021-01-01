@@ -530,10 +530,42 @@ footer a:hover {
 /* NEWWWWWWWWW */
 /* NEWWWWWWWWW */
 
-.card-nganh {
-  border: 1px solid black;
-  border-radius: 8px;
+.inner-overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.55);
+  transition-property: all;
+  transition-duration: 0.75s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
 }
 
-@media only screen and (max-width: 767px) {
+.outer-overlay:hover .inner-overlay {
+  height: 2.5rem;
+}
+.inner-overlay:hover {
+  height: 2.5rem;
+}
+
+.slider {
+}
+
+@keyframes fadeUp {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
+}
+
+@keyframes fadeDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: 100%;
+  }
 }
