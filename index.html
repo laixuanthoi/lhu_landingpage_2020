@@ -1,374 +1,718 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
+  <head>
+    <base href="/" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
+    <title>Lac Hong University - Tuyen sinh 2020</title>
+    <!-- Google Tag Manager -->
 
-<head>
-  <base href="/" />
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <link rel="shortcut icon" type="image/ico" href="favicon.ico" />
-  <title>Lac Hong University - Tuyen sinh 2020</title>
-  <!-- Google Tag Manager -->
+    <!-- End Google Tag Manager -->
 
-  <!-- End Google Tag Manager -->
+    <!-- Bootstrap 4 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <!-- Marterial icon -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
 
-  <!-- Bootstrap 4 -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" />
-  <!-- Marterial icon -->
-  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
+    <!-- font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700"
+      rel="stylesheet"
+    />
 
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Jura:300,400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-  <link rel="stylesheet" href="assets/css/animate.css" />
-
-  <link rel="stylesheet" href="assets/css/common.css" />
-  <!-- <link rel="stylesheet" href="assets/css/style.min.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style.min.css" />
   <link rel="stylesheet" href="assets/css/style-mobile.min.css" /> -->
 
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <!-- <link rel="stylesheet" href="assets/css/style-mobile.css" /> -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- <link rel="stylesheet" href="assets/css/style-mobile.css" /> -->
 
-  <!-- Carousel slider -->
-  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+    <!-- Carousel slider -->
+    <!-- <link rel="stylesheet" href="assets/owlcarousel/assets/owl.carousel.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/owlcarousel/assets/owl.theme.default.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+    />
 
-  <script>
-    (function (w, d, s, l, i) {
-      w[l] = w[l] || [];
-      w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
-      var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s),
-        dl = l != "dataLayer" ? "&l=" + l : "";
-      j.async = true;
-      j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
-      f.parentNode.insertBefore(j, f);
-    })(window, document, "script", "dataLayer", "GTM-WT8KRJ3");
-  </script>
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-WT8KRJ3");
+    </script>
 
-  <!-- Primary Meta Tags -->
-  <title>Đại học Lạc Hồng - Tuyển sinh 2020</title>
-  <meta name="title" content="Đại học Lạc Hồng - Tuyển sinh 2020">
-  <meta name="description"
-    content="Đại học Lạc Hồng công bố 05 phương thức tuyển sinh đại học 2020 cho hơn 2.000 chỉ tiêu của 17 ngành đào tạo theo chuẩn quốc tế.">
+    <!-- Primary Meta Tags -->
+    <title>Đại học Lạc Hồng - Tuyển sinh 2020</title>
+    <meta name="title" content="Đại học Lạc Hồng - Tuyển sinh 2020" />
+    <meta
+      name="description"
+      content="Đại học Lạc Hồng công bố 05 phương thức tuyển sinh đại học 2020 cho hơn 2.000 chỉ tiêu của 17 ngành đào tạo theo chuẩn quốc tế."
+    />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://tuyensinh.lhu.edu.vn/">
-  <meta property="og:title" content="Đại học Lạc Hồng - Tuyển sinh 2020">
-  <meta property="og:description"
-    content="Đại học Lạc Hồng công bố 05 phương thức tuyển sinh đại học 2020 cho hơn 2.000 chỉ tiêu của 17 ngành đào tạo theo chuẩn quốc tế.">
-  <meta property="og:image" content="https://tuyensinh.lhu.edu.vn/seo/lac-hong-tuyen-sinh.jpg">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://tuyensinh.lhu.edu.vn/" />
+    <meta property="og:title" content="Đại học Lạc Hồng - Tuyển sinh 2020" />
+    <meta
+      property="og:description"
+      content="Đại học Lạc Hồng công bố 05 phương thức tuyển sinh đại học 2020 cho hơn 2.000 chỉ tiêu của 17 ngành đào tạo theo chuẩn quốc tế."
+    />
+    <meta
+      property="og:image"
+      content="https://tuyensinh.lhu.edu.vn/seo/lac-hong-tuyen-sinh.jpg"
+    />
 
-  <!-- Twitter -->
-  <meta property="twitter:card" content="summary_large_image">
-  <meta property="twitter:url" content="https://tuyensinh.lhu.edu.vn/">
-  <meta property="twitter:title" content="Đại học Lạc Hồng - Tuyển sinh 2020">
-  <meta property="twitter:description"
-    content="Đại học Lạc Hồng công bố 05 phương thức tuyển sinh đại học 2020 cho hơn 2.000 chỉ tiêu của 17 ngành đào tạo theo chuẩn quốc tế.">
-  <meta property="twitter:image" content="https://tuyensinh.lhu.edu.vn/seo/lac-hong-tuyen-sinh.jpg">
-</head>
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://tuyensinh.lhu.edu.vn/" />
+    <meta
+      property="twitter:title"
+      content="Đại học Lạc Hồng - Tuyển sinh 2020"
+    />
+    <meta
+      property="twitter:description"
+      content="Đại học Lạc Hồng công bố 05 phương thức tuyển sinh đại học 2020 cho hơn 2.000 chỉ tiêu của 17 ngành đào tạo theo chuẩn quốc tế."
+    />
+    <meta
+      property="twitter:image"
+      content="https://tuyensinh.lhu.edu.vn/seo/lac-hong-tuyen-sinh.jpg"
+    />
+  </head>
 
-<body class="container-fluid p-0 m-0" data-spy="scroll" data-target="#scrollspy-nav" data-offset="200">
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WT8KRJ3" height="0" width="0"
-      style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
+  <body
+    class="container-fluid p-0 m-0"
+    data-spy="scroll"
+    data-target="#scrollspy-nav"
+    data-offset="200"
+  >
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-WT8KRJ3"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Add your code here -->
-  <header id="home">
-    <nav id="scrollspy-nav" class="navbar shadow-lg fixed-top navbar-dark navbar-expand-lg bg-transparent">
-      <div class="container">
-        <a class="navbar-brand text-white d-md-block d-none" href="/">
-          <img src="assets/img/logo_moi_en.png"  height="50px" alt="Lac Hong" />
-        </a>
-        <a class="btn btn-dangky orange-bg-gradient-color" href="https://lhu.fun/B41F66" target="_blank">Đăng ký ngay</a>
-        <button class="navbar-toggler no-outline border-0" type="button" data-toggle="collapse" data-target="#main-nav"
-          aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
-          <div class="animated-icon2">
-            <span></span><span></span><span></span><span></span>
-          </div>
-        </button>
+    <!-- Add your code here -->
+    <header id="home">
+      <nav
+        id="scrollspy-nav"
+        class="navbar shadow-lg fixed-top navbar-dark navbar-expand-lg bg-transparent"
+      >
+        <div class="container">
+          <a class="navbar-brand text-white d-md-block d-none" href="/">
+            <img
+              src="assets/img/logo_moi_en.png"
+              height="50px"
+              alt="Lac Hong"
+            />
+          </a>
+          <a
+            class="btn btn-dangky orange-bg-gradient-color"
+            href="https://lhu.fun/B41F66"
+            target="_blank"
+            >Đăng ký ngay</a
+          >
+          <button
+            class="navbar-toggler no-outline border-0"
+            type="button"
+            data-toggle="collapse"
+            data-target="#main-nav"
+            aria-controls="main-nav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <div class="animated-icon2">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </button>
 
-        <div class="collapse navbar-collapse" id="main-nav">
-          <div class="spacer"></div>
-          <ul class="navbar-nav nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#ly-do">Lý do</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#nganh-dao-tao">Ngành đào tạo</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#xet-tuyen">Xét tuyển</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#hoc-bong">Học bổng</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#co-hoi">Cơ hội</a>
-            </li>
-            
-            <!-- <li class="nav-item">
+          <div class="collapse navbar-collapse" id="main-nav">
+            <div class="spacer"></div>
+            <ul class="navbar-nav nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#ly-do">Lý do</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#nganh-dao-tao">Ngành đào tạo</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#xet-tuyen">Xét tuyển</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hoc-bong">Học bổng</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#co-hoi">Cơ hội</a>
+              </li>
+
+              <!-- <li class="nav-item">
               <a class="nav-link" href="#blog">Hoạt động</a>
             </li> -->
-            <li class="nav-item">
-              <a class="nav-link" href="https://tuyensinh.lhu.edu.vn/thanh-tich-lhu/" target="_blank">Thành tích</a>
-            </li>
-          </ul>
-
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="https://tuyensinh.lhu.edu.vn/thanh-tich-lhu/"
+                  target="_blank"
+                  >Thành tích</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <div id="intro-section">
+        <img
+          class="img-fluid w-100 d-md-block d-none"
+          src="assets/img/banner.webp"
+          alt="Banner Tuyen Sinh"
+        />
+        <img
+          class="img-fluid w-100 d-md-none d-block"
+          src="assets/img/banner-mobile.webp"
+          alt="Banner Tuyen Sinh"
+        />
       </div>
-    </nav>
-    <div id="intro-section">
-      <img class="img-fluid w-100 d-md-block d-none" src="assets/img/banner.webp" alt="Banner Tuyen Sinh" />
-      <img class="img-fluid w-100 d-md-none d-block" src="assets/img/banner-mobile.webp" alt="Banner Tuyen Sinh" />
-    </div>
+    </header>
 
-  </header>
-
- <main>
-   <section id="introduce">
-     <div class="section-title mb-5">
-        Chính sách tặng sinh viên đăng ký tại Đại học Lạc Hồng
-     </div>
-     <div class="container">
-       <div class="row">
-         <div class="col-12 col-md-4">
-          <div class="card" style="width: 20rem;">
-            
-            <div class="position-relative">
-              <img src="res/01.JPG" class="card-img-top" alt="...">
-              <div class="position-absolute w-100 text-white text-center" style="bottom: 0; left: 0;background-color:rgba(19, 182, 240, 0.85)">
-                <h5 class="py-1" style="line-height:1.5rem; height:1.5rem">Số lượng có hạn</h5>
+    <main>
+      <section id="introduce">
+        <div class="section-title mb-5">
+          Chính sách tặng sinh viên đăng ký tại Đại học Lạc Hồng
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <div class="card" style="width: 20rem">
+                <div class="position-relative">
+                  <img src="res/01.JPG" class="card-img-top" alt="..." />
+                  <div
+                    class="position-absolute w-100 text-white text-center"
+                    style="
+                      bottom: 0;
+                      left: 0;
+                      background-color: rgba(19, 182, 240, 0.85);
+                    "
+                  >
+                    <h5
+                      class="py-1"
+                      style="line-height: 1.5rem; height: 1.5rem"
+                    >
+                      Số lượng có hạn
+                    </h5>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Một năm học tiếng Anh miễn phí tại Lạc Hồng
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card-body">
-              <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p>
-            </div>
-          </div>
-         </div>
-         <div class="col-12 col-md-4">
-          <div class="card" style="width: 20rem;">
-            <div class="position-relative">
-              <img src="res/01.JPG" class="card-img-top" alt="...">
-              <div class="position-absolute w-100 text-white text-center" style="bottom: 0; left: 0;background-color:rgba(19, 182, 240, 0.85)">
-                <h5 class="py-1" style="line-height:1.5rem; height:1.5rem">Số lượng có hạn</h5>
+            <div class="col-12 col-md-4">
+              <div class="card" style="width: 20rem">
+                <div class="position-relative">
+                  <img src="res/01.JPG" class="card-img-top" alt="..." />
+                  <div
+                    class="position-absolute w-100 text-white text-center"
+                    style="
+                      bottom: 0;
+                      left: 0;
+                      background-color: rgba(19, 182, 240, 0.85);
+                    "
+                  >
+                    <h5
+                      class="py-1"
+                      style="line-height: 1.5rem; height: 1.5rem"
+                    >
+                      Số lượng có hạn
+                    </h5>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    2000 học bổng dành tặng sinh viên nhập học sớm
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card-body">
-              <p class="card-text" >2000 học bổng dành tặng sinh viên nhập học sớm</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-12 col-md-4">
-          <div class="card" style="width: 20rem;">
-            <div class="position-relative">
-              <img src="res/01.JPG" class="card-img-top" alt="...">
-              <div class="position-absolute w-100 text-white text-center" style="bottom: 0; left: 0;background-color:rgba(19, 182, 240, 0.85)">
-                <h5 class="py-1" style="line-height:1.5rem; height:1.5rem">Số lượng có hạn</h5>
+            <div class="col-12 col-md-4">
+              <div class="card" style="width: 20rem">
+                <div class="position-relative">
+                  <img src="res/01.JPG" class="card-img-top" alt="..." />
+                  <div
+                    class="position-absolute w-100 text-white text-center"
+                    style="
+                      bottom: 0;
+                      left: 0;
+                      background-color: rgba(19, 182, 240, 0.85);
+                    "
+                  >
+                    <h5
+                      class="py-1"
+                      style="line-height: 1.5rem; height: 1.5rem"
+                    >
+                      Số lượng có hạn
+                    </h5>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">
+                    Một chuyến đi du lịch hè cùng các bạn tân sinh viên
+                  </p>
+                </div>
               </div>
             </div>
-            <div class="card-body">
-              <p class="card-text">Một chuyến đi du lịch hè cùng các bạn tân sinh viên</p>
+
+            <div class="col-12 text-center mt-5">
+              <a
+                href="#"
+                class="btn btn-lg text-white"
+                style="
+                  background-image: -webkit-linear-gradient(
+                    0deg,
+                    #f14437 0%,
+                    #ed5b0d 99%
+                  );
+                "
+                >Đăng ký ngay</a
+              >
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col-12 text-center mt-5"><a href="#" class="btn btn-lg text-white" style="background-image: -webkit-linear-gradient(0deg,#f14437 0%,#ed5b0d 99%);">Đăng ký ngay</a></div>
-        
-       </div>
-     </div>
-     
-   </section>
-
-   <section id="">
-    <div class="section-title mb-5">
-      Thế mạnh của Đại Học Lạc Hồng
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-3 p-0">
-          <div class="outer-overlay position-relative">
-            <img class="w-100" src="assets/img/thanhtich/robocon.jpg" style="height: 320px;"  alt="">
-            <div class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider">
-              <h3 class="text-white text-center" >Robocon</h3>
+      <section id="">
+        <div class="section-title mb-5">Thế mạnh của Đại Học Lạc Hồng</div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-3 p-0">
+              <div class="outer-overlay position-relative">
+                <img
+                  class="w-100"
+                  src="assets/img/thanhtich/robocon.jpg"
+                  style="height: 320px"
+                  alt=""
+                />
+                <div
+                  class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider"
+                >
+                  <h3 class="text-white text-center">Robocon</h3>
+                </div>
+              </div>
             </div>
-          </div>
-         
-          
-        </div>
-        <div class="col-md-3 p-0">
-
-          <div class="outer-overlay position-relative">
-            <img class="w-100" src="assets/img/thanhtich/xe_tiet_kiem_nhien_lieu.jpg"  style="height: 320px;" alt="">
-            <div class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider">
-              <h3 class="text-white" >Xe tiết kiệm nhiên liệu</h3>
+            <div class="col-md-3 p-0">
+              <div class="outer-overlay position-relative">
+                <img
+                  class="w-100"
+                  src="assets/img/thanhtich/xe_tiet_kiem_nhien_lieu.jpg"
+                  style="height: 320px"
+                  alt=""
+                />
+                <div
+                  class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider"
+                >
+                  <h3 class="text-white">Xe tiết kiệm nhiên liệu</h3>
+                </div>
+              </div>
             </div>
-            
-          </div>
-
-          
-        </div>
-        <div class="col-md-3 p-0">
-          <div class="outer-overlay position-relative">
-            <img class="w-100" src="assets/img/thanhtich/xe_khong_nguoi_lai.jpg" style="height: 320px;" alt="">
-            <div class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider">
-              <h3 class="text-white text-center" >Xe không người lái</h3>
+            <div class="col-md-3 p-0">
+              <div class="outer-overlay position-relative">
+                <img
+                  class="w-100"
+                  src="assets/img/thanhtich/xe_khong_nguoi_lai.jpg"
+                  style="height: 320px"
+                  alt=""
+                />
+                <div
+                  class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider"
+                >
+                  <h3 class="text-white text-center">Xe không người lái</h3>
+                </div>
+              </div>
             </div>
-            
-          </div>
-          
-        </div>
-        <div class="col-md-3 p-0">
-          <div class="outer-overlay position-relative">
-            <img class="w-100"  src="assets/img/thanhtich/aun.jpg" style="height: 320px;" alt="">
-            <div class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider">
-              <h3 class="text-white text-center" >Kiểm định chất lượng AUN</h3>
-            </div>
-            
-          </div>
-          
-        </div>
-    </div>
-    </div>
-   </section>
-
-   <section id="">
-    <div class="section-title mb-5">
-      Ngành đào tạo
-    </div>
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/cddt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
-            </div>
-          </div>
-
-          
-        </div>
-
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/duoc.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
-            </div>
-          </div>
-
-          
-        </div>
-
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/nna.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
-            </div>
-          </div>
-
-          
-        </div>
-
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/cntt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+            <div class="col-md-3 p-0">
+              <div class="outer-overlay position-relative">
+                <img
+                  class="w-100"
+                  src="assets/img/thanhtich/aun.jpg"
+                  style="height: 320px"
+                  alt=""
+                />
+                <div
+                  class="inner-overlay position-absolute d-flex justify-content-center align-items-center slider"
+                >
+                  <h3 class="text-white text-center">
+                    Kiểm định chất lượng AUN
+                  </h3>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/qtktqt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+      <section id="tu-van">
+        <div class="container py-5">
+          <div class="row text-white">
+            <div class="col-12 col-md-6">
+              <h3>BẠN CẦN CHÚNG TÔI TƯ VẤN?</h3>
+              <p>
+                Để nhận tư vấn miễn phí hoặc tài khoản học thử, bạn có thể liên
+                lạc với chúng tôi qua SDT hoặc để lại thông tin.
+              </p>
+            </div>
+            <div class="col-12 col-md-6">
+              <div
+                class="w-100 h-100 d-flex justify-content-center align-items-center"
+              >
+                <a
+                  href="#"
+                  class="btn btn-lg text-white"
+                  style="
+                    background-image: -webkit-linear-gradient(
+                      0deg,
+                      #f14437 0%,
+                      #ed5b0d 99%
+                    );
+                  "
+                  ><i class="fas fa-phone mr-2"></i> Hotline: (0251) 73 000
+                  73</a
+                >
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div class="row mt-4">
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/tckt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+      <section>
+        <div class="section-title mb-5">Ngành đào tạo</div>
+        <div class="">
+          <div class="d-flex flex-column flex-md-row">
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
             </div>
-          </div>  
-        </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/tckt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+          <div class="d-flex flex-column flex-md-row">
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+            <div class="">
+              <div class="card mx-2">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/cddt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+      <section id="">
+        <div class="section-title mb-5">Ngành đào tạo</div>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/duoc.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/nna.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/cntt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/qtktqt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
             </div>
           </div>
 
-          
-        </div>
+          <div class="row mt-4">
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/tckt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
 
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/cddt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/tckt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="card" style="width: 12rem">
+                <img
+                  src="assets/img/10khoa/cddt.png"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body text-center">
+                  <h5 class="card-title">Kỹ thuật điện</h5>
+                  <h5 class="card-title">Điện tử viễn thông</h5>
+                  <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="col">
-          <div class="card" style="width: 12rem;">
-            <img src="assets/img/10khoa/cddt.png" class="card-img-top" alt="...">
-            <div class="card-body text-center">
-              <h5 class="card-title">Kỹ thuật điện</h5>
-              <h5 class="card-title">Điện tử viễn thông</h5>
-              <!-- <p class="card-text">Một năm học tiếng Anh miễn phí tại Lạc Hồng</p> -->
-            </div>
-          </div>
-
-          
-        </div>
-      </div>
-    </div>
-    </div>
-   </section>
-
-
-   <section id="">
+      <!-- <section id="">
     <div class="section-title mb-5">
       Cơ hội thực tập và làm việc trong và ngoài nước
     </div>
@@ -392,94 +736,94 @@
         <div class="col-12">***Được đào tạo và làm việc tại nước ngoài</div>
     </div>
     </div>
-   </section>
+   </section> -->
 
-   <section id="">
-    <div class="section-title mb-5">
-      Người ta nói gì về Đại học Lạc Hồng
-    </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-4">
-          <img class="img-fluid" src="assets/img/download.webp" alt="">
-          Cựu sinh viên nói về Đại học Lạc Hồng
+      <section id="">
+        <div class="section-title mb-5">
+          Người ta nói gì về Đại học Lạc Hồng
         </div>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-4">
+              <img class="img-fluid" src="assets/img/download.webp" alt="" />
+              Cựu sinh viên nói về Đại học Lạc Hồng
+            </div>
 
-        <div class="col-md-4">
-          <img class="img-fluid" src="assets/img/download.webp" alt="">
-          Phụ huynh nói về Đại học Lạc Hồng
+            <div class="col-md-4">
+              <img class="img-fluid" src="assets/img/download.webp" alt="" />
+              Phụ huynh nói về Đại học Lạc Hồng
+            </div>
+
+            <div class="col-md-4">
+              <img class="img-fluid" src="assets/img/download.webp" alt="" />
+              Doanh nghiệp nói về Đại học Lạc Hồng
+            </div>
+          </div>
         </div>
+      </section>
+    </main>
 
-        <div class="col-md-4">
-          <img class="img-fluid" src="assets/img/download.webp" alt="">
-          Doanh nghiệp nói về Đại học Lạc Hồng
-        </div>
-       
-    </div>
-    </div>
-   </section>
-
-
-
- </main>
-
-  <footer>
-    <div class="text-center w-100">
-      <img src="assets/img/logo_moi.png" alt="" width="220px" srcset="">
-    </div>
-
-    <div class="container my-5">
-      <div class="row">
-        <div class="col-lg-3 col-md-6 col-12 text-md-center">
-          <i class="fas fa-phone mr-2"></i><a href="tel:0251 73 000 73">(0251) 73 000 73</a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 text-md-center">
-          <i class="fas fa-envelope mr-2"></i><a href="mailto:tuyensinh@lhu.edu.vn">tuyensinh@lhu.edu.vn</a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 text-md-center">
-          <i class="fas fa-globe mr-2"></i><a href="https://lhu.edu.vn" target="_blank">lhu.edu.vn</a>
-        </div>
-        <div class="col-lg-3 col-md-6 col-12 text-md-center">
-          <i class="fab fa-facebook-f mr-2"></i><a href="https://www.facebook.com/lhuniversity" target="_blank">
-            fb.com/lhuniversity</a>
-        </div>
-        
+    <footer>
+      <div class="text-center w-100">
+        <img src="assets/img/logo_moi.png" alt="" width="220px" srcset="" />
       </div>
-    </div>
-    <div class="w-100 shadow-lg position-relative">
-      <div class="position-absolute">
 
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-12 text-md-center">
+            <i class="fas fa-phone mr-2"></i
+            ><a href="tel:0251 73 000 73">(0251) 73 000 73</a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 text-md-center">
+            <i class="fas fa-envelope mr-2"></i
+            ><a href="mailto:tuyensinh@lhu.edu.vn">tuyensinh@lhu.edu.vn</a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 text-md-center">
+            <i class="fas fa-globe mr-2"></i
+            ><a href="https://lhu.edu.vn" target="_blank">lhu.edu.vn</a>
+          </div>
+          <div class="col-lg-3 col-md-6 col-12 text-md-center">
+            <i class="fab fa-facebook-f mr-2"></i
+            ><a href="https://www.facebook.com/lhuniversity" target="_blank">
+              fb.com/lhuniversity</a
+            >
+          </div>
+        </div>
       </div>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.136931624126!2d106.80006621533478!3d10.953027458902811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d95970202f3f%3A0x679e7fa6d33f74e5!2zVHLGsOG7nW5nIMSR4bqhaSBo4buNYyBM4bqhYyBI4buTbmcsIEPGoSBz4bufIDE!5e0!3m2!1svi!2s!4v1609537829767!5m2!1svi!2s" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-  
-    
-    <div class="footer-copyright text-center py-2" style="margin-top:-6px">
-      © 2020 Đại Học Lạc Hồng
-    </div>
+      <div class="w-100 position-relative footer-map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.136931624126!2d106.80006621533478!3d10.953027458902811!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3174d95970202f3f%3A0x679e7fa6d33f74e5!2zVHLGsOG7nW5nIMSR4bqhaSBo4buNYyBM4bqhYyBI4buTbmcsIEPGoSBz4bufIDE!5e0!3m2!1svi!2s!4v1609537829767!5m2!1svi!2s"
+          width="100%"
+          height="400"
+          frameborder="0"
+          style="border: 0"
+          allowfullscreen=""
+          aria-hidden="false"
+          tabindex="0"
+        ></iframe>
+      </div>
 
-          
-  </footer>
-  <!--End Add your code here-->
+      <div class="footer-copyright text-center py-2" style="margin-top: -6px">
+        © 2020 Đại Học Lạc Hồng
+      </div>
+    </footer>
+    <!--End Add your code here-->
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
-  <!-- End Bottstrap script -->
-  <script src="assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- End Bottstrap script -->
+    <script src="assets/owlcarousel/owl.carousel.min.js"></script>
 
-  <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/main.min.js"></script>
 
-  <script src="https://tuyensinh.lhu.edu.vn/assets/js/webp-hero/polyfills.js"></script>
-  <script src="https://tuyensinh.lhu.edu.vn/assets/js/webp-hero/webp-hero.bundle.js"></script>
+    <script src="https://tuyensinh.lhu.edu.vn/assets/js/webp-hero/polyfills.js"></script>
+    <script src="https://tuyensinh.lhu.edu.vn/assets/js/webp-hero/webp-hero.bundle.js"></script>
 
-  <script>
-    var webpMachine = new webpHero.WebpMachine()
-    webpMachine.polyfillDocument()
-  </script>
-
-
-</body>
-
+    <script>
+      var webpMachine = new webpHero.WebpMachine();
+      webpMachine.polyfillDocument();
+    </script>
+  </body>
 </html>

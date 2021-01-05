@@ -8,7 +8,7 @@
 }
 
 section {
-  padding: 8rem 0 4rem 0;
+  /* padding: 8rem 0 4rem 0; */
 }
 .section-title {
   text-align: center;
@@ -544,23 +544,20 @@ footer a:hover {
   height: 2.5rem;
 }
 
-.slider {
+/* tu van */
+#tu-van {
+  background-image: url("../img/sinh-vien.jpg"),
+    linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
+  background-blend-mode: overlay;
+  /* background-size: cover; */
 }
+/* #tu-van .overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+} */
 
-@keyframes fadeUp {
-  from {
-    height: 0;
-  }
-  to {
-    height: 100%;
-  }
-}
+/* footer */
 
-@keyframes fadeDown {
-  from {
-    height: 0;
-  }
-  to {
-    height: 100%;
-  }
+/* map */
+.footer-map {
+  box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.1) !important;
 }
