@@ -8,15 +8,18 @@
 }
 
 section {
-  /* padding: 8rem 0 4rem 0; */
+  padding-top: 5rem;
+  padding-bottom: 10rem;
 }
+
 .section-title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 2.25rem;
   font-weight: 700;
   text-transform: uppercase;
+  margin-bottom: 4rem;
 }
-.section-title > h2 {
+/* .section-title > h2 {
   text-transform: uppercase;
   font-size: 40px;
   font-weight: 800;
@@ -27,7 +30,7 @@ section {
 .section-title p {
   font-size: 1.1em;
   margin-bottom: 2rem;
-}
+} */
 html,
 body {
   height: 100%;
@@ -545,19 +548,33 @@ footer a:hover {
 }
 
 /* tu van */
-#tu-van {
+#stu-van {
   background-image: url("../img/sinh-vien.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75));
   background-blend-mode: overlay;
   /* background-size: cover; */
 }
-/* #tu-van .overlay {
-  background-color: rgba(0, 0, 0, 0.75);
-} */
+
+/* nganh dao tao */
+#snganh-dao-tao {
+  margin-right: 24px;
+  margin-left: 24px;
+}
 
 /* footer */
 
 /* map */
 .footer-map {
   box-shadow: 0 -5px 10px -5px rgba(0, 0, 0, 0.1) !important;
+}
+
+@media only screen and (max-width: 767px) {
+  #snganh-dao-tao {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
+.card {
+  border-radius: 4px;
 }
